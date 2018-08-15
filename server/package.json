@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "test": "standard && node api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enjds/robot-simulator.git"
+  },
+  "keywords": [
+    "robot-simulator"
+  ],
+  "author": "Benjo Delos Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enjds/robot-simulator/issues"
+  },
+  "homepage": "https://github.com/enjds/robot-simulator#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
+}
